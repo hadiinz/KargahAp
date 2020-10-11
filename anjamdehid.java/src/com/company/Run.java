@@ -37,6 +37,10 @@ public class Run {
         System.out.println("////////////////////////////////////");
         lab.calculateAvg();
         System.out.println("avg grade:"+lab.getAvg());
+        System.out.println("////////////////////////////////////");
+        Daneshkadeh compuer=new Daneshkadeh("computer",3);
+        compuer.addLab(lab);
+        compuer.print();
 
     }
 

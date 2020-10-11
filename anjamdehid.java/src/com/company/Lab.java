@@ -46,11 +46,12 @@ public class Lab {
      *
      */
     public void print() {
- // System.out.println(currentSize)      ;
+
+  System.out.println("lab day:"+day)      ;
         for(int i=0;i<currentSize;i++){
             students[i].print();
 
-        } System.out.println(avg);
+        } System.out.println("average:"+avg);
     }
 
 
